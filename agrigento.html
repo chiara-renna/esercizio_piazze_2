@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piazza Pirandello, Agrigento - Meraviglie di Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-nav {
+            background-color: var(#4a3728);
+            padding: 12px;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .back-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: medium;
+            font-size: medium;
+        }
+
+        .back-nav a:hover {
+            color: var(#4a3728);
+        }
+
+             .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width:768px) {
+           .place-item {
+              flex-direction: row;
+            }
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back-nav">
+        <a href="index.html">&larr; Home</a>
+    </div>
+
+    <header>
+        <h1>Piazza Pirandello</h1>
+        <p>Agrigento — L'ingresso monumentale all'antico borgo collinare.</p>
+    </header>
+    <div class="container">
+        <p class="intro-text">Dedica illustre al drammaturgo Luigi Pirandello, questa suggestiva piazza fa da cerniera d'ingresso verso l'intricato nucleo di vicoli medievali di Agrigento.</p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/piazza_pirandello_agrigento.jpg" alt="Piazza Pirandello, Agrigento">
+                <div class="card-content">
+                    <h3>Palazzo dei Giganti</h3>
+                    <p>Edificato originariamente nel Seicento come collegio dei Padri Domenicani, l'imponente palazzo domina lo spazio urbano ed è l'attuale sede del Comune di Agrigento.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Teatro Luigi Pirandello</h3>
+                    <p>Collocato all'interno del complesso del Palazzo dei Giganti, questo storico teatro ottocentesco ricalca lo stile del celebre Teatro San Carlo di Napoli nei suoi interni dorati.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Chiesa di San Domenico</h3>
+                    <p>Adiacente al palazzo municipale, la chiesa arricchisce la piazza con la sua magnifica scalinata d'accesso a forbice e una facciata sobria in calda pietra arenaria.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>I Vicoli del Centro</h3>
+                    <p>Dalla piazza si snodano le caratteristiche scalinate e le strette vie di origine araba e normanna, che salgono arrampicandosi verso la soprastante Cattedrale di San Gerlando.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>&copy; 2026 Archivio Fotografico Piazze della Sicilia. Tutti i diritti riservati.</p></footer>
+</body>
+</html>

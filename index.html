@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Le Piazze della Sicilia</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcfbf7;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img_sicily.jpg) no-repeat center center/cover;
+            background-color: #d4a373;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+        header p {
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+            margin-top: 10px;
+        }
+
+        nav {
+        background-color: var(#4a3728);
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: medium;
+            transform: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(#333);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5s);
+        }
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h3 {
+            margin-top: 0;
+            color: #b07d62;
+            font-size: 1.4rem;
+            border-bottom: 2px solid #f4ebe1;
+            padding-bottom: 8px;
+        }
+        .card-content p {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        footer {
+            background-color: #4a3728;
+            color: #f4ebe1;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meravigliose Piazze di Sicilia</h1>
+        <p>Un viaggio fotografico tra la storia, l'architettura e l'anima dei centri urbani siciliani</p>
+    </header>
+
+    <nav>
+        <a href="#piazze">Piazze</a>
+        <a href="storia_della_sicilia.html">Storia della Sicilia</a>
+    </nav>
+
+    <div class="container">
+        <div class="grid">
+            
+            <div class="card">
+                <img src="img/piazza_duca_degli_abruzzi_ragusa.jpg" alt="Piazza Duca degli Abruzzi, Ragusa">
+                <div class="card-content">
+                    <h3>
+                        <a href="ragusa.html" class="meta-link">Piazza Duca degli Abruzzi • Ragusa</a>
+                    </h3>
+                    <p>Un vivace punto di incontro affacciato sul Mediterraneo, dove la brezza marina sposa lo stile di vita lento e caloroso dell'isola.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_duomo_messina.jpg" alt="Piazza del Duomo, Messina">
+                <div class="card-content">
+                    <h3>
+                        <a href="messina.html" class="meta-link">Piazza Duomo • Messina</a>
+                    </h3>
+                    <p>Dominata dal maestoso Duomo e dal celebre campanile astronomico, rappresenta il cuore pulsante della città dello Stretto.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_duomo_siracusa.jpg" alt="Piazza del Duomo, Siracusa">
+                <div class="card-content">
+                    <h3>
+                        <a href="siracusa.html" class="meta-link">Piazza Duomo • Siracusa</a>
+                    </h3>
+                    <p>Situata nell'isola di Ortigia, questa splendida piazza in pietra calcarea è incorniciata dal Duomo barocco, sorto sull'antico tempio di Atena.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_garibaldi_caltanissetta.jpg" alt="Piazza Garibaldi, Caltanissetta">
+                <div class="card-content">
+                    <h3>
+                        <a href="caltanissetta.html" class="meta-link">Piazza Garibaldi • Caltanissetta</a>
+                    </h3>
+                    <p>Il centro geometrico e storico della città, impreziosito dalla maestosa Fontana del Tritone e dalle quinte architettoniche della Cattedrale.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_pirandello_agrigento.jpg" alt="Piazza Pirandello, Agrigento">
+                <div class="card-content">
+                    <h3>
+                        <a href="agrigento.html" class="meta-link">Piazza Pirandello • Agrigento</a>
+                    </h3>
+                    <p>Sede del Palazzo dei Giganti, questo spazio incarna la transizione tra il centro storico medievale e la grandezza monumentale agrigentina.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_pretoria_palermo.jpg" alt="Piazza Pretoria, Palermo">
+                <div class="card-content">
+                    <h3>
+                        <a href="palermo.html" class="meta-link">Piazza Pretoria • Palermo</a>
+                    </h3>
+                    <p>Nota anche come "Piazza della Vergogna" per la sensualità delle statue della sua monumentale fontana rinascimentale, a pochi passi dai Quattro Canti.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_universita_catania.jpg" alt="Piazza dell'Università, Catania">
+                <div class="card-content">
+                    <h3>
+                        <a href="catania.html" class="meta-link">Piazza dell'Università • Catania</a>
+                    </h3>
+                    <p>Uno scenografico spazio barocco pavimentato in pietra lavica, illuminato dai caratteristici lampioni bronzei e dominato dal Palazzo dell'Università.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/piazza_vittorio_emanuele_enna.jpg" alt="Piazza vittorio Emanuele, Enna">
+                <div class="card-content">
+                    <h3>
+                        <a href="enna.html" class="meta-link">Piazza Vittorio Emanuele • Enna</a>
+                    </h3>
+                    <p>Ampio spazio urbano monumentale caratterizzato da imponenti lampioni storici e palazzi nobiliari che raccontano la vita quotidiana siciliana.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Piazze della Sicilia - Galleria Fotografica Statica.</p>
+    </footer>
+
+</body>
+</html>

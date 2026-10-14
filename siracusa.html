@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piazza del Duomo, Siracusa - Meraviglie di Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-nav {
+            background-color: var(#4a3728);
+            padding: 12px;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .back-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: medium;
+            font-size: medium;
+        }
+
+        .back-nav a:hover {
+            color: var(#4a3728);
+        }
+
+             .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width:768px) {
+           .place-item {
+              flex-direction: row;
+            }
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+        
+    <div class="back-nav">
+        <a href="index.html">&larr; Home</a>
+    </div>
+
+    <header>
+        <h1>Piazza del Duomo</h1>
+        <p>Siracusa — La scenografia di luce bianca sull'isola di Ortigia.</p>
+    </header>
+    <div class="container">
+        <p class="intro-text">Caratterizzata da una pianta semicircolare e pavimentata in candida pietra calcarea, questa piazza è considerata uno dei salotti urbani più belli d'Europa.</p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/piazza_duomo_siracusa.jpg" alt="Piazza del Duomo, Siracusa">
+                <div class="card-content">
+                    <h3>La Cattedrale della Natività</h3>
+                    <p>Un tempio unico al mondo: la straordinaria facciata barocca nasconde la struttura originale del Tempio dorico di Atena del V secolo a.C., le cui monumentali colonne sono tuttora visibili all'interno.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Palazzo Vermexio</h3>
+                    <p>Sede del municipio cittadino, l'edificio mostra la fusione perfetta tra geometrie rinascimentali al piano inferiore e decorazioni barocche al piano superiore, firmate dal geniale architetto Vermexio.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Palazzo Beneventano del Bosco</h3>
+                    <p>Una delle dimore gentilizie più raffinate dell'isola. Il palazzo si distingue per il suo cortile interno scenografico, arricchito da un eccezionale pavimento in acciottolato bianco e nero.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Chiesa di Santa Lucia alla Badia</h3>
+                    <p>Situata all'estremità della piazza, questa chiesa vanta una splendida facciata slanciata e custodisce (a periodi) preziosi capolavori d'arte legati alla patrona della città di Siracusa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>&copy; 2026 Archivio Fotografico Piazze della Sicilia. Tutti i diritti riservati.</p></footer>
+</body>
+</html>

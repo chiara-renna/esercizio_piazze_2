@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piazza Garibaldi, Caltanissetta - Meraviglie di Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-nav {
+            background-color: var(#4a3728);
+            padding: 12px;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .back-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: medium;
+            font-size: medium;
+        }
+
+        .back-nav a:hover {
+            color: var(#4a3728);
+        }
+
+             .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width:768px) {
+           .place-item {
+              flex-direction: row;
+            }
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back-nav">
+        <a href="index.html">&larr; Home</a>
+    </div>
+
+    <header>
+        <h1>Piazza Garibaldi</h1>
+        <p>Caltanissetta — Il fulcro geometrico della Sicilia centrale.</p>
+    </header>
+    <div class="container">
+        <p class="intro-text">Incrocio dei due corsi principali della città, questa storica piazza rappresenta il cuore geografico, sociale e monumentale del comune nisseno.</p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/piazza_garibaldi_caltanissetta.jpg" alt="Piazza Garibaldi, Caltanissetta">
+                <div class="card-content">
+                    <h3>Fontana del Tritone</h3>
+                    <p>Posizionata al centro dello spiazzo nel 1956, l'opera in bronzo dello scultore Michele Tripisciano si ispira al mito marino, ritraendo un tritone che doma un mostro acquatico.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>La Cattedrale di Santa Maria</h3>
+                    <p>Costruita tra la fine del '500 e l'inizio del '600, domina la piazza con la sua elegante facciata affiancata da due campanili e custodisce splendidi affreschi del fiammingo Borremans.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Chiesa di San Sebastiano</h3>
+                    <p>Situata in posizione speculare rispetto alla Cattedrale, questa chiesa si fa notare per la sua bellissima ed eclettica facciata ottocentesca arricchita da colonne e statue decorative.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Palazzo del Carmine</h3>
+                    <p>Antico convento carmelitano riconvertito nell'Ottocento, il palazzo delimita scenograficamente lo spazio della piazza fungendo oggi da storica sede del Municipio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>&copy; 2026 Archivio Fotografico Piazze della Sicilia. Tutti i diritti riservati.</p></footer>
+</body>
+</html>

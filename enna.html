@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piazza Vittorio Emanuele, Enna - Meraviglie di Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-nav {
+            background-color: var(#4a3728);
+            padding: 12px;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .back-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: medium;
+            font-size: medium;
+        }
+
+        .back-nav a:hover {
+            color: var(#4a3728);
+        }
+
+             .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width:768px) {
+           .place-item {
+              flex-direction: row;
+            }
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back-nav">
+        <a href="index.html">&larr; Home</a>
+    </div>
+
+    <header>
+        <h1>Piazza Vittorio Emanuele</h1>
+        <p>Enna — Il belvedere monumentale nel cuore del Belvedere di Sicilia.</p>
+    </header>
+    <div class="container">
+        <p class="intro-text">Situata nel nucleo centrale della città più alta d'Italia, questa grande piazza terrazzata unisce la solennità delle istituzioni a panorami mozzafiato sull'entroterra isolano.</p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/piazza_vittorio_emanuele_enna.jpg" alt="Piazza Vittorio Emanuele, Enna">
+                <div class="card-content">
+                    <h3>Il Belvedere e la Prospettiva</h3>
+                    <p>La piazza è celebre per la sua balconata panoramica che offre una vista sconfinata sulle vallate centrali della Sicilia, spingendo lo sguardo fino alle pendici dell'Etna nei giorni più limpidi.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Chiesa e Convento di San Francesco</h3>
+                    <p>A dominare uno dei lati della piazza si erge il complesso monumentale di San Francesco d'Assisi, con la sua imponente torre campanaria trecentesca che fungeva originariamente da torre di guardia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Palazzo del Governo</h3>
+                    <p>Sede della Prefettura e monumentale esempio di architettura civile, l'edificio conferisce alla piazza il suo ruolo di baricentro istituzionale, amministrativo e storico della provincia ennese.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Incrocio Storico</h3>
+                    <p>La piazza fa da snodo alla Via Roma, l'asse viario principale che attraversa il centro storico, e rappresenta lo spazio ideale per le grandi manifestazioni pubbliche e le processioni tradizionali.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>&copy; 2026 Archivio Fotografico Piazze della Sicilia. Tutti i diritti riservati.</p></footer>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piazza Pretoria, Palermo - Meraviglie di Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-nav {
+            background-color: var(#4a3728);
+            padding: 12px;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .back-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: medium;
+            font-size: medium;
+        }
+
+        .back-nav a:hover {
+            color: var(#4a3728);
+        }
+
+             .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width:768px) {
+           .place-item {
+              flex-direction: row;
+            }
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            flex: 1;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="back-nav">
+        <a href="index.html">&larr; Home</a>
+    </div>
+
+    <header>
+        <h1>Piazza Pretoria</h1>
+        <p>Palermo — Il fascino rinascimentale nel cuore del capoluogo siciliano.</p>
+    </header>
+
+    <div class="container">
+        <p class="intro-text">Conosciuta anche come "Piazza della Vergogna", questo spazio urbano è uno dei luoghi più celebri e fotografati della Sicilia, racchiuso tra capolavori architettonici e dominato dalla sua monumentale fontana.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <img src="img/piazza_pretoria_palermo.jpg" alt="Fontana Pretoria, Palermo">
+                <div class="card-content">
+                    <h3>La Fontana Monumentale</h3>
+                    <p>Vero fulcro della piazza, la fontana fu realizzata a Firenze da Francesco Camilliani nel 1554 e successivamente acquistata dal Senato palermitano. È composta da oltre quaranta statue di marmo che raffigurano divinità mitologiche, allegorie di fiumi e mostri marini.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>La "Piazza della Vergogna"</h3>
+                    <p>Il soprannome popolare deriva dalla nudità esibita delle statue della fontana, che scosse profondamente il senso del pudore della Palermo settecentesca e ottocentesca, in particolare delle monache di clausura del vicino convento di Santa Caterina.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Palazzo delle Aquile</h3>
+                    <p>Il lato meridionale della piazza è occupato dal Palazzo Pretorio (noto anche come Palazzo delle Aquile), storico fulcro del potere civico e oggi sede del Comune di Palermo. Al suo interno custodisce raffinate sale decorate e testimonianze storiche della città.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>La Cornice Barocca</h3>
+                    <p>A delimitare lo spazio scenografico della piazza contribuiscono la maestosa facciata della Chiesa di Santa Caterina d'Alessandria e i prospetti di Palazzo Bonocore e Palazzo Bordonaro, che creano un suggestivo contrasto geometrico con la pianta circolare della fontana.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Archivio Fotografico Piazze della Sicilia. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>

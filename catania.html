@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piazza dell'Università, Catania - Meraviglie di Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-nav {
+            background-color: var(#4a3728);
+            padding: 12px;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .back-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: medium;
+            font-size: medium;
+        }
+
+        .back-nav a:hover {
+            color: var(#4a3728);
+        }
+
+             .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width:768px) {
+           .place-item {
+              flex-direction: row;
+            }
+        }
+
+        .place-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-content {
+            padding: 25px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="back-nav">
+        <a href="index.html">&larr; Home</a>
+    </div>
+
+    <header>
+        <h1>Piazza dell'Università</h1>
+        <p>Catania — L'eleganza geometrica del barocco in pietra lavica.</p>
+    </header>
+    
+    <div class="container">
+        <p class="intro-text">Situata lungo la storica Via Etnea, questa piazza è uno degli spazi urbani più armoniosi e luminosi di Catania, ridefinita interamente dopo il grande sisma del 1693.</p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/piazza_universita_catania.jpg" alt="Piazza dell'Università, Catania">
+                <div class="card-content">
+                    <h3>Palazzo dell'Università</h3>
+                    <p>Sede del Siculorum Gymnasium fondato nel 1434, il palazzo presenta un magnifico cortile interno a doppio loggiato e una facciata mossa progettata da grandi architetti del barocco catanese.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>I Lampioni Bronzei</h3>
+                    <p>Realizzati nel 1957 dallo scultore Mimì Maria Lazzaro, i quattro spettacolari lampioni artistici in bronzo decorano la piazza accogliendo e narrando plasticamente le antiche leggende catanesi.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Le Leggende Catanesi</h3>
+                    <p>Sui lampioni sono scolpite le storie di Colapesce, dei fratelli pii Anapia e Anfinomo che salvarono i genitori dall'Etna, del paladino Gammazita e del valoroso giovane idraulico Uzeta.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Palazzo San Giuliano</h3>
+                    <p>Posto esattamente di fronte all'Università, questo palazzo nobiliare disegnato da Giovan Battista Vaccarini arricchisce la piazza con la sua imponente architettura e i suoi dettagli decorativi bicolore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>&copy; 2026 Archivio Fotografico Piazze della Sicilia. Tutti i diritti riservati.</p></footer>
+</body>
+</html>
